@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping(value = "/user")
+@RequestMapping("/user")
 public class UserController {
 
 	@RequestMapping(value = "{name}", method = RequestMethod.GET)
